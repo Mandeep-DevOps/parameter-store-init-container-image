@@ -1,2 +1,1 @@
-aws s3 ls --region us-east-1
-
+aws ssm describe-parameters --region us-east-1
