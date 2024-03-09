@@ -1,3 +1,4 @@
+set -x
 for param in $PARAMS ; do
   PARAM=$(echo $param | awk -F , '{print $1}')
   KEY=$(echo $param | awk -F , '{print $2}')
